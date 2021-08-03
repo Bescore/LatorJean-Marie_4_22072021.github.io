@@ -361,9 +361,7 @@ a:hover {
   position: relative;
   z-index: 2;
 }
-.acc-margin {
-  margin-right: 40px;
-}
+
 
 @media (min-width: 768px) {
   .site-navigation {
