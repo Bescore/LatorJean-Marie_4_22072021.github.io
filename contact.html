@@ -29,7 +29,8 @@
         <nav class="navbar row">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html"
-              ><img
+              ><img tabindex="0"
+                aria-labelledby="la chouette agence"
                 src="img/la-chouette-agence.png"
                 alt="La chouette agence"
                 height="40"
@@ -104,11 +105,12 @@
               >
                 <div class="form-group">
                   <label> Nom </label>
-                  <input aria-label="nom" id="name" class="form-control" required />
+                  <input  aria-label="nom" id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
                   <label> Adresse email </label>
                   <input
+                  aria-label="adresse email"
                     id="email"
                     class="form-control"
                     type="email"
@@ -118,6 +120,7 @@
                 <div class="form-group">
                   <label> Comment nous avez-vous connu ? </label>
                   <input
+                  aria-label="comment nous avez-vous connu"
                     class="form-control"
                     type="email"
                     required
@@ -129,6 +132,7 @@
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
+                  aria-label="brief de votre projet"
                     id="message"
                     class="form-control"
                     rows="4"
@@ -179,28 +183,28 @@
             <div class="row row-no-gutters social">
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a class="social" href="https://twitter.com/?lang=fr"
+                  <a role="link" aria-label="twitter" class="social" href="https://twitter.com"
                     ><span class="fa fa-twitter icon-md"></span
                   ></a>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a aria-label="dribbble" class="social" href="https://www.facebook.com"
+                  <a role="link" aria-label="facebook" class="social" href="https://www.facebook.com"
                     ><span  class="fa fa-facebook icon-md"></span
                   ></a>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a aria-label="dribbble" class="social" href="https://dribbble.com"
+                  <a role="link" aria-label="dribbble" class="social" href="https://dribbble.com"
                     ><span class="fa fa-dribbble icon-md"></span
                   ></a>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a aria-label="instagram" class="social" href="https://www.instagram.com/?hl=fr"
+                  <a  role="link" aria-label="instagram"  class="social" href="https://www.instagram.com/?hl=fr"
                     ><span class="fa fa-instagram icon-md"></span
                   ></a>
                 </div>
