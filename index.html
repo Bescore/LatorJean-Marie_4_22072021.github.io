@@ -39,6 +39,7 @@
                 height="40"
             /></a>
             <button
+            aria-expanded="false"
               role="nav-toggle"
               id="nav-toggle"
               type="button"
@@ -46,9 +47,9 @@
               data-toggle="collapse"
               data-target=".navbar-1"
             >
-              <span tabeindex="0" class="sr-only">Toggle navigation</span
-              ><span tabeindex="0" class="icon-bar"></span><span tabindex="0" class="icon-bar"></span
-              ><span tabindex="0" class="icon-bar"></span>
+              <span tabindex="0"  class="sr-only">navigation</span
+              ><span tabindex="0"  class="icon-bar"></span><span tabindex="0" class="icon-bar"></span
+              ><span tabindex="0"  class="icon-bar"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -86,13 +87,14 @@
           <div class="row tight-width-whitespace">
             <div class="col-sm-12">
               <img
+              tabindex="0"
                 src="img/logo.png"
                 class="center-block image-resize-mode"
                 width="100"
                 alt="création logo paris"
               />
-              <h1 class="text-center hero-bloc-text tc-white">
-                La chouette agence.
+              <h1 tabindex="0" class="text-center hero-bloc-text tc-white">
+                La chouette agence
               </h1>
               <div class="text-center">
                 <a
@@ -117,7 +119,7 @@
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2 class="adaptative">
+              <h2 tabindex="0" class="adaptative">
                 La chouette agence est une entreprise de web design qui aide les
                 plateformes à devenir attractive et visible sur internet
               </h2>
@@ -127,6 +129,8 @@
             <div class="col-sm-4">
               <div class="text-center">
                 <span
+                tabindex="0"
+                aria-label="icone de web design"
                   class="
                     et-icon-browser
                     sm-shadow
@@ -136,8 +140,8 @@
                   "
                 ></span>
               </div>
-              <p class="adaptative mg-md text-center">Web design</p>
-              <p class="text-center">
+              <p tabindex="0" class="adaptative mg-md text-center">Web design</p>
+              <p tabindex="0" class="text-center">
                 Que vous ayez un site web qui a besoin d&rsquo;un
                 rafraîchissement ou que vous partiez de zéro, laissez-nous vous
                 réaliser un design dont vous serez fier.
@@ -146,6 +150,8 @@
             <div class="col-sm-4">
               <div class="text-center">
                 <span
+                tabindex="0"
+                aria-label="icone de stratégie"
                   class="
                     et-icon-presentation
                     sm-shadow
@@ -155,8 +161,8 @@
                   "
                 ></span>
               </div>
-              <p id="h2" class=" adaptative mg-md text-center">&nbsp;Stratégie</p>
-              <p class="text-center">
+              <p tabindex="0" id="h2" class=" adaptative mg-md text-center">&nbsp;Stratégie</p>
+              <p tabindex="0" class="text-center">
                 Plutôt que de suggérer des designs à la mode, nous travaillerons
                 avec vous pour comprendre vos objectifs commerciaux afin de vous
                 proposer le meilleur design possible.<br />
@@ -165,6 +171,8 @@
             <div class="col-sm-4">
               <div class="text-center">
                 <span
+                tabindex="0"
+                aria-label="icone d'illustrations'"
                   class="
                     et-icon-edit
                     sm-shadow
@@ -174,8 +182,8 @@
                   "
                 ></span>
               </div>
-              <p class=" adaptative mg-md text-center">Illustrations<p>
-              <p class="text-center">
+              <p tabindex="0" class=" adaptative mg-md text-center">Illustrations<p>
+              <p tabindex="0" class="text-center">
                 Un bon design n'est rien sans de bonnes illustrations. Laissez
                 faire notre équipe de graphistes talentueux pour donner à vos
                 pages une touche finale d'élégance.
@@ -184,7 +192,7 @@
           </div>
           <div class="row voffset-lg voffset">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <p class="adaptative">
+              <p tabindex="0" class="adaptative">
                 "La chouette agence est une excellente agence web ! Les web
                 designers ont réussi à capturer l'essence de notre entreprise et
                 à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes
@@ -215,12 +223,12 @@
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace black-background">
             <div class="col-sm-12">
-              <h2 class="mg-md text-center tc-white">
+              <h2 tabindex="0" class="mg-md text-center tc-white">
                 Nous souhaitons aider les entreprises de la région Lyonnaise à
                 se développer et à connaître le succès. Nous travaillons pour
                 aider les entreprises locales à attirer de nouveaux clients .<br />
               </h2>
-              <p class="text-center white">
+              <p tabindex="0" class="text-center white">
                 Nous aimons collaborer avec des entrepreneurs créatifs et des
                 entreprises locale, qu’elles aient besoin de créer un site de A
                 à Z ou de donner un coup de jeune à leur site. Que vous ayez
@@ -228,7 +236,7 @@
                 votre site, n’hésitez pas à nous contacter. Nous travaillerons
                 ensemble pour créer des sites beau et bien structurés, qui
                 seront facilement trouvable sur les moteurs de recherche.
-                <br /><br /><a class="ltc-white bold-link" href="contact.html"
+                <br /><br /><a role="link" aria-label="contactez notre équipe" class="ltc-white bold-link" href="contact.html"
                   >Contactez notre équipe</a
                 ><br />
               </p>
@@ -265,10 +273,10 @@
                   alt="refonte site web journal"
                   class="img-responsive portfolio-thumb"
               /></a>
-              <h3 class="mg-md text-center">
+              <h3 tabindex="0" class="mg-md text-center">
                 Refonte d'un site web pour un journal local
               </h3>
-              <p class="text-center">
+              <p tabindex="0" class="text-center">
                 Nous avons créé une nouvelle identité visuelle pour un journal
                 lyonnais.
               </p>
@@ -285,10 +293,10 @@
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour photographes"
               /></a>
-              <h3 class="mg-md text-center">
+              <h3 tabindex="0" class="mg-md text-center">
                 Création d'un site web pour photographes
               </h3>
-              <p class="text-center">
+              <p tabindex="0" class="text-center">
                 Nous avons conçu la plateforme idéale pour laisser place aux
                 clichés des photographes.
               </p>
@@ -307,10 +315,10 @@
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour voyageur"
               /></a>
-              <h3 class="mg-md text-center">
+              <h3 tabindex="0" class="mg-md text-center">
                 Création d'un site internet pour un voyageur
               </h3>
-              <p class="text-center">
+              <p tabindex="0" class="text-center">
                 Nous avons élaboré un site internet et des illustrations pour
                 sublimer les vidéos et les articles de ce voyageur.
               </p>
@@ -327,10 +335,10 @@
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour agence de mariage"
               /></a>
-              <h3 class="mg-md text-center">
+              <h3 tabindex="0" class="mg-md text-center">
                 Conception d'un site pour une agence de mariage
               </h3>
-              <p class="text-center">
+              <p tabindex="0" class="text-center">
                 Nous avons travaillé avec cette agence pour créer un site
                 internet permettant la présentation détaillée de leurs
                 prestations.
@@ -355,7 +363,7 @@
       >
         <div class="container bloc-lg">
           <div class="row">
-            <h3 class=" adaptative mg-md text-center tc-white">
+            <h3 tabindex="0" class=" adaptative mg-md text-center tc-white">
               Prêt pour redonner vie à votre projet ?<br />Contactez notre
               équipe !
             </h3>
@@ -381,7 +389,7 @@
       <div class="container bloc-sm">
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center white">
+            <p tabindex="0" class="text-center white">
               La chouette agence - Agence web basée à Lyon.<br />
             </p>
             <div class="row row-no-gutters social">
