@@ -1,1 +1,1 @@
-Le but de ce projet est d'ameliorer un site qui nous ait donné, de faire un rapport détaillé au "client", en insistant sur les moyens utilisés et les points d'améliorations
+Le but de ce projet est d'ameliorer un site qui nous ait donné, de faire un rapport détaillé au "client", en insistant sur les moyens utilisés et les points d'améliorations, le site optimisé et les rapports se trouvent dans la branche "optimisation"
